@@ -1,5 +1,13 @@
 const projects = [
   {
+    name: "Portfolio Website",
+    link: "https://bernadetteestacio.site/",
+    gitlink:
+      "https://github.com/bernadette-estacio/Bernadette-Estacio-Portfolio",
+    photo: "/assets/img/portfolio/portfolio-website.jpeg",
+    categories: "website react",
+  },
+  {
     name: "Guess the City Game",
     link: "projects/Guess-City-Game",
     gitlink: "https://github.com/bernadette-estacio/Guess-The-City-Game-App",
