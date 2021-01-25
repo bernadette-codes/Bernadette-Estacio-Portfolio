@@ -1,3 +1,15 @@
+## **[Portfolio website](https://bernadetteestacio.site/) **
+
+![Landing Page](https://media-exp1.licdn.com/dms/image/C562DAQFvjWr6GSV3ew/profile-treasury-image-shrink_1280_1280/0/1606824791147?e=1611702000&v=beta&t=SvD4Lr29LQFv2c2WDlBYbEZifLwbA53DIfxYUczDpCU)
+
+- Single-page, responsive website built with React
+
+**Front-End:**
+
+- React
+- CSS3
+- HTML5
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
