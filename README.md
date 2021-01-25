@@ -1,6 +1,6 @@
 ## **[Portfolio website](https://bernadetteestacio.site/) **
 
-![Landing Page](https://media-exp1.licdn.com/dms/image/C562DAQFvjWr6GSV3ew/profile-treasury-image-shrink_1280_1280/0/1606824791147?e=1611702000&v=beta&t=SvD4Lr29LQFv2c2WDlBYbEZifLwbA53DIfxYUczDpCU)
+![Landing Page](https://bernadetteestacio.site/assets/img/portfolio/portfolio.png)
 
 - Single-page, responsive website built with React
 

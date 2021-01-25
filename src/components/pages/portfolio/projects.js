@@ -4,7 +4,7 @@ const projects = [
     link: "https://bernadetteestacio.site/",
     gitlink:
       "https://github.com/bernadette-estacio/Bernadette-Estacio-Portfolio",
-    photo: "/assets/img/portfolio/portfolio-website.jpeg",
+    photo: "/assets/img/portfolio/portfolio.png",
     categories: "website react",
   },
   {
