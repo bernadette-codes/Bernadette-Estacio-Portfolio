@@ -1,0 +1,59 @@
+@import "../../../assets/scss/variables.scss";
+@import "../../../assets/scss/mixins.scss";
+@import "../../../assets/scss/misc.scss";
+@import "../../../assets/scss/breakpoints.scss";
+
+.contact {
+  .intro {
+    margin: 10px;
+  }
+
+  p {
+    width: 100%;
+    font-size: 1.5em;
+    color: $fontColor;
+    padding-bottom: 10px;
+    text-align: center;
+
+    @include breakpoint(mobile) {
+      font-size: 1.25em;
+    }
+
+    @media (max-width: 640px) {
+      font-size: 1.125em;
+    }
+
+    &:first-child {
+      font-family: "Montserrat Alternates", sans-serif;
+      font-size: 1.75em;
+      color: $fontColorDark;
+      padding-bottom: 20px;
+
+      @include breakpoint(mobile) {
+        font-size: 1.5em;
+      }
+
+      @media (max-width: 640px) {
+        font-size: 1.25em;
+      }
+    }
+
+    &:last-of-type {
+      padding-top: 10px;
+    }
+
+    span {
+      @media (max-width: 640px) {
+        display: block;
+      }
+    }
+  }
+
+  ul.social {
+    margin: 10px auto 0;
+    i {
+      color: $colorThemeSat;
+      font-size: 27px;
+    }
+  }
+}

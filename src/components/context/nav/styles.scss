@@ -1,0 +1,54 @@
+@import "../../../assets/scss/variables.scss";
+@import "../../../assets/scss/mixins.scss";
+@import "../../../assets/scss/normalize.scss";
+@import "../../../assets/scss/misc.scss";
+@import "../../../assets/scss/breakpoints.scss";
+
+header.pages {
+  nav {
+    @media (max-width: 620px) {
+      margin-bottom: 30px;
+    }
+
+    ul {
+      display: flex;
+      flex-direction: row;
+
+      li {
+        margin: 10px 15px 15px;
+
+        @include breakpoint(tablet) {
+          margin: 10px 5px 15px;
+        }
+
+        @media (max-width: 620px) {
+          margin-top: 0;
+        }
+
+        @media (max-width: 350px) {
+          margin: 0 0 15px;
+        }
+      }
+
+      a {
+        font-family: "Montserrat Alternates", sans-serif;
+        font-size: 1.5em;
+        background-color: $colorThemeSat;
+        color: $white;
+        border-radius: 0 0 100px 100px;
+        padding: 20px 25px 25px;
+        text-decoration: none;
+        transition: all 0.2s;
+
+        @media (max-width: 620px) {
+          font-size: 1em;
+          padding: 5px 15px 15px;
+        }
+
+        &:hover {
+          background-color: $colorTheme;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,93 @@
+// /* Header Typography */
+// @function strip-unit($value) {
+//   @return $value / ($value * 0 + 1);
+// }
+
+// @mixin fluid-type($min-vw, $max-vw, $min-font-size, $max-font-size) {
+//   $u1: unit($min-vw);
+//   $u2: unit($max-vw);
+//   $u3: unit($min-font-size);
+//   $u4: unit($max-font-size);
+
+//   @if $u1 == $u2 and $u1 == $u3 and $u1 == $u4 {
+//     & {
+//       font-size: $min-font-size;
+//       @media screen and (min-width: $min-vw) {
+//         font-size: calc(
+//           #{$min-font-size} + #{strip-unit($max-font-size - $min-font-size)} *
+//             ((100vw - #{$min-vw}) / #{strip-unit($max-vw - $min-vw)})
+//         );
+//       }
+//       @media screen and (min-width: $max-vw) {
+//         font-size: $max-font-size;
+//       }
+//     }
+//   }
+// }
+
+// body {
+//   font-size: min(max(1rem, 4vw), 22px) !important;
+//   line-height: calc(1.1em + 0.5vw);
+// }
+
+// $min_width: 320px;
+// $max_width: 1200px;
+// $min_font: 16px;
+// $max_font: 24px;
+// $mod_1: 1.2; // mobile
+// $mod_2: 1.5; // desktop
+
+// h1,
+// .biggestFont {
+//   font-size: $mod_1 * $mod_1 * $mod_1 * $mod_1 * 1rem;
+//   @include fluid-type(
+//     $min_width,
+//     $max_width,
+//     $mod_1 * $mod_1 * $mod_1 * $min_font,
+//     $mod_2 * $mod_2 * $mod_2 * $min_font
+//   );
+// }
+// h2,
+// .biggerFont {
+//   font-size: $mod_1 * $mod_1 * $mod_1 * 1rem;
+//   @include fluid-type(
+//     $min_width,
+//     $max_width,
+//     $mod_1 * $mod_1 * $mod_1 * $min_font,
+//     $mod_2 * $mod_2 * $mod_2 * $min_font
+//   );
+// }
+// h3,
+// .bigFont {
+//   font-size: $mod_1 * $mod_1 * 1rem;
+//   @include fluid-type(
+//     $min_width,
+//     $max_width,
+//     $mod_1 * $mod_1 * $min_font,
+//     $mod_2 * $mod_2 * $min_font
+//   );
+// }
+
+// h1,
+// h2 {
+//   font-weight: bold;
+// }
+// /* Header Typography */
+
+// p,
+// li,
+// i {
+//   font-size: 1em;
+
+//   @include breakpoint(tablet) {
+//     font-size: 0.875em;
+//   }
+
+//   @include breakpoint(mobile) {
+//     font-size: 0.75em;
+//   }
+
+//   @media (max-width: 550px) {
+//     font-size: 0.875em;
+//   }
+// }

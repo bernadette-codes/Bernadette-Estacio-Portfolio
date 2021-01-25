@@ -1,0 +1,180 @@
+@import "../../../assets/scss/variables.scss";
+@import "../../../assets/scss/mixins.scss";
+@import "../../../assets/scss/normalize.scss";
+@import "../../../assets/scss/misc.scss";
+@import "../../../assets/scss/breakpoints.scss";
+
+.portfolio {
+  @include container-width;
+  text-align: center;
+
+  .filterOptions {
+    margin: 30px auto 50px;
+
+    @media (max-width: 640px) {
+      margin: 30px auto;
+    }
+
+    .btn {
+      width: 30%;
+      background-color: $colorThemeSat;
+      color: $white;
+      font-family: "Roboto Slab", serif;
+      font-size: 1.25em;
+      padding: 10px 0.5%;
+      margin: 0.5%;
+      text-align: center;
+      border: none;
+      outline: none;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+      cursor: pointer;
+      transition: all 0.2s;
+
+      @media (max-width: 640px) {
+        font-size: 0.875em;
+        padding: 7px 15px;
+      }
+
+      @media (max-width: 400px) {
+        padding: 7px 10px;
+      }
+
+      @media (max-width: 350px) {
+        width: auto;
+      }
+
+      &.active {
+        background-color: $colorTheme;
+      }
+
+      &:hover {
+        background-color: $colorTheme;
+      }
+    }
+  }
+
+  .projects {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+
+    @media (max-width: 400px) {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .filterProject {
+      display: inline-block;
+      background-color: $white;
+      width: 46%;
+      height: auto;
+      margin: 1%;
+      opacity: 1;
+      overflow: hidden;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+      transition: all 0.5s linear;
+
+      @media (max-width: 400px) {
+        width: 80%;
+        margin: 3%;
+      }
+
+      > a[title="project link"] {
+        img {
+          display: block;
+          width: 100%; //Change later
+          height: auto;
+        }
+      }
+    }
+
+    .projInfo {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      border-top: 1px solid #1780c1;
+
+      h3 {
+        background-color: $white;
+        font-size: 1.5em;
+        line-height: 1.2;
+        padding: 0 10px;
+        margin: auto;
+
+        @include breakpoint(desktop-lg) {
+          font-size: 1.25em;
+        }
+
+        @media (max-width: 640px) {
+          font-size: 1.125em;
+        }
+
+        a {
+          color: $colorThemeDark;
+          text-decoration: none;
+          transition: all 0.2s;
+
+          &:hover {
+            color: $fontColorDarker;
+          }
+        }
+      }
+
+      a.gitLink {
+        background-color: $colorThemeSat;
+        color: $white;
+        padding: 20px;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        transition: all 0.2s;
+
+        @media (max-width: 640px) {
+          padding: 20px 10px;
+        }
+
+        &:hover {
+          background-color: $colorTheme;
+        }
+
+        i {
+          font-size: 2em;
+        }
+      }
+    }
+  }
+
+  .filter-websites {
+    > :not(.website) {
+      @include collapseBox;
+      // display: none;
+    }
+  }
+  .filter-apps {
+    > :not(.app) {
+      @include collapseBox;
+    }
+  }
+  .filter-react {
+    > :not(.react) {
+      @include collapseBox;
+    }
+  }
+  .filter-angular {
+    > :not(.angular) {
+      @include collapseBox;
+    }
+  }
+  .filter-angular {
+    > :not(.angular) {
+      @include collapseBox;
+    }
+  }
+  .filter-wordpress {
+    > :not(.wordpress) {
+      @include collapseBox;
+    }
+  }
+}

@@ -1,0 +1,91 @@
+@import "./breakpoints.scss";
+
+@mixin clear {
+  clear: both;
+}
+
+@mixin container-width {
+  display: block;
+  max-width: 1080px;
+  padding: 0 15px;
+  margin-left: auto;
+  margin-right: auto;
+
+  @include breakpoint(desktop-lg) {
+    width: 60.7%; //1280
+  }
+
+  @include breakpoint(desktop-sm) {
+    width: 83.9%; //1024px
+  }
+
+  @include breakpoint(tablet) {
+    width: 88.3%; //991px
+  }
+
+  @include breakpoint(mobile) {
+    width: 100%; //768px
+  }
+}
+
+/* Page Header */
+@mixin page-header {
+  padding-top: 10vmin;
+  padding-bottom: 5vmin;
+}
+
+/* Full Screen */
+@mixin full-screen {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Full Width */
+@mixin full-width {
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+}
+
+/* Modal Location */
+@mixin modal-loc {
+  top: 20vh;
+}
+
+@mixin flexCenter {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+@mixin flexSpaceBetween {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+@mixin flexSpaceAround {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+@mixin flexSpaceEvenly {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+@mixin collapseBox {
+  height: 0;
+  width: 0;
+  margin: 0;
+  opacity: 0;
+  box-shadow: none;
+}

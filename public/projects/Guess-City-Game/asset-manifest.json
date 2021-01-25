@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/projects/Guess-City-Game/static/css/main.ea5efbd3.chunk.css",
+    "main.js": "/projects/Guess-City-Game/static/js/main.08f2ecd0.chunk.js",
+    "main.js.map": "/projects/Guess-City-Game/static/js/main.08f2ecd0.chunk.js.map",
+    "runtime-main.js": "/projects/Guess-City-Game/static/js/runtime-main.cfd97270.js",
+    "runtime-main.js.map": "/projects/Guess-City-Game/static/js/runtime-main.cfd97270.js.map",
+    "static/js/2.7f47de19.chunk.js": "/projects/Guess-City-Game/static/js/2.7f47de19.chunk.js",
+    "static/js/2.7f47de19.chunk.js.map": "/projects/Guess-City-Game/static/js/2.7f47de19.chunk.js.map",
+    "index.html": "/projects/Guess-City-Game/index.html",
+    "static/css/main.ea5efbd3.chunk.css.map": "/projects/Guess-City-Game/static/css/main.ea5efbd3.chunk.css.map",
+    "static/js/2.7f47de19.chunk.js.LICENSE.txt": "/projects/Guess-City-Game/static/js/2.7f47de19.chunk.js.LICENSE.txt",
+    "static/media/index.scss": "/projects/Guess-City-Game/static/media/background.51d9a7fa.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cfd97270.js",
+    "static/js/2.7f47de19.chunk.js",
+    "static/css/main.ea5efbd3.chunk.css",
+    "static/js/main.08f2ecd0.chunk.js"
+  ]
+}

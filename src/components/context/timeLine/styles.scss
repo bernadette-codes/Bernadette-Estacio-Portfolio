@@ -1,0 +1,199 @@
+@import "../../../assets/scss/variables.scss";
+@import "../../../assets/scss/mixins.scss";
+@import "../../../assets/scss/normalize.scss";
+@import "../../../assets/scss/misc.scss";
+@import "../../../assets/scss/breakpoints.scss";
+
+ul.skills {
+  position: relative;
+  left: -2%;
+  max-width: 46em;
+  margin: 30px auto 0;
+
+  @include breakpoint(desktop-lg) {
+    left: -4%;
+    max-width: 65%;
+  }
+
+  @include breakpoint(desktop-sm) {
+    max-width: 75%;
+  }
+
+  @include breakpoint(tablet) {
+    max-width: 85%;
+  }
+
+  @include breakpoint(mobile) {
+    left: -3%;
+    max-width: 95%;
+    margin-top: 50px;
+  }
+
+  @media (max-width: 350px) {
+    left: -6%;
+  }
+
+  &:before {
+    content: "";
+    background-color: $colorThemeDark;
+    position: absolute;
+    top: 0;
+    left: 2em;
+    width: 2px;
+    height: 100%;
+    margin-left: -1px;
+  }
+
+  li {
+    position: relative;
+
+    &:last-of-type .skill-set {
+      padding-bottom: 0px;
+    }
+
+    &:hover .diamond {
+      transform: none;
+    }
+
+    &:hover .skill-year {
+      transform: translateX(8px);
+    }
+  }
+
+  .diamond {
+    display: block;
+    position: absolute;
+    top: -1px;
+    left: 2em;
+    width: 1em;
+    height: 1em;
+    background-color: $colorThemeDark;
+    outline: 10px solid $white;
+    margin: 0.5em 0.5em 0.5em -0.5em;
+    transform: rotate(45deg);
+    transition: all 0.35s;
+
+    @include breakpoint(tablet) {
+      left: 2.3em;
+    }
+
+    @include breakpoint(mobile) {
+      top: -30px;
+      left: 2.6em;
+    }
+
+    @media (max-width: 550px) {
+      top: -45px;
+      left: 2.2em;
+    }
+  }
+
+  .skill-set {
+    position: relative;
+    top: -1.875em;
+    left: 4em;
+    width: 100%;
+    padding: 40px 0 50px;
+
+    @include breakpoint(mobile) {
+      margin-left: -6%;
+      padding: 20px 0 25px;
+    }
+
+    @media (max-width: 550px) {
+      padding: 10px 0 15px;
+    }
+
+    .skill-year {
+      display: inline-block;
+      color: $white;
+      font-size: 1.125em;
+      background-color: $colorThemeDark;
+      padding: 0.25em 0.75em;
+      border-radius: 2px;
+      transition: all 0.35s;
+
+      @include breakpoint(mobile) {
+        margin-left: 50px;
+      }
+
+      @media (max-width: 550px) {
+        margin-left: 30px;
+      }
+    }
+  }
+
+  .skill-list {
+    @include flexCenter;
+    flex-wrap: wrap;
+    background-color: $white;
+    width: 85%;
+    padding: 40px 40px 10px 40px;
+    margin: -20px 0 0 30px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 4px 4px 15px 0px $colorThemeDark;
+
+    @include breakpoint(mobile) {
+      padding: 40px 5px 10px 5px;
+    }
+
+    @media (max-width: 550px) {
+      margin-left: 10px;
+    }
+
+    figure {
+      width: 30%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      margin: 0;
+      margin-bottom: 50px;
+
+      @include breakpoint(mobile) {
+        margin-bottom: 30px;
+      }
+
+      @media (max-width: 500px) {
+        margin-bottom: 15px;
+      }
+
+      img {
+        width: 30%;
+        height: auto;
+
+        &[src*="xpath"] {
+          height: 75%;
+        }
+        &[src*="java"],
+        &[src*="php"],
+        &[src*="sass"],
+        &[src*="react"],
+        &[src*="python"] {
+          width: 35%;
+        }
+        &[src*="bootstrap"],
+        &[src*="javascript"],
+        &[src*="es6"],
+        &[src*="xml"],
+        &[src*="xslt"],
+        &[src*="galen"],
+        &[src*="schema"],
+        &[src*="selenium"] {
+          width: 25%;
+        }
+        &[src*="webdriverio"] {
+          width: 20%;
+        }
+      }
+
+      figcaption {
+        font-size: 1em;
+        font-weight: 600;
+        line-height: 1em;
+        margin-top: 5px;
+      }
+    }
+  }
+}
