@@ -13,12 +13,11 @@ const skillsList = {
     ES6: "/assets/img/skills/es6.png",
   },
   2016: {
-    AngularJS: "/assets/img/skills/angularjs.png",
+    Angular: "/assets/img/skills/angularjs.png",
+    React: "/assets/img/skills/react.ico",
     Json: "/assets/img/skills/json.png",
   },
   2017: {
-    "WordPress CMS": "/assets/img/skills/wordpress.png",
-    Foundation: "/assets/img/skills/wordpress.png",
     XML: "/assets/img/skills/xml.png",
     XSLT: "/assets/img/skills/xslt.jpg",
     XPath: "/assets/img/skills/xpath.png",
@@ -30,7 +29,8 @@ const skillsList = {
     Galen: "/assets/img/skills/galen.png",
   },
   2018: {
-    React: "/assets/img/skills/react.ico",
+    "WordPress CMS": "/assets/img/skills/wordpress.png",
+    Foundation: "/assets/img/skills/wordpress.png",
     Schema: "/assets/img/skills/schema.jpg",
   },
   2019: {

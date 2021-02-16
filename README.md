@@ -1,4 +1,4 @@
-## **[Portfolio website](https://bernadetteestacio.site/) **
+## [Portfolio website](https://bernadetteestacio.site/)
 
 ![Landing Page](https://bernadetteestacio.site/assets/img/portfolio/portfolio.png)
 
