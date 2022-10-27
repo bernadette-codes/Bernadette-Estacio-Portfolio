@@ -1,6 +1,6 @@
 ## [Portfolio website](https://bernadetteestacio.site/)
 
-![Landing Page](https://bernadetteestacio.site/assets/img/portfolio/portfolio.png)
+![Landing Page](https://raw.githubusercontent.com/bernadette-codes/Bernadettecodes/master/src/assets/img/portfolio/portfolio.png)
 
 - Single-page, responsive website built with React
 
