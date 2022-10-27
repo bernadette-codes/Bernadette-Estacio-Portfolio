@@ -5,8 +5,8 @@ const OpeningEffect = () => (
   <div className="welcomeAnim">
     <div className="load">
       <h1>
-        Bernadette <br />
-        Estacio
+        Hey <br />
+        there!
       </h1>
     </div>
 
