@@ -59,7 +59,7 @@ const tools = {
     "Local by Flywheel": "/assets/img/tools/local.png",
     Ampps: "/assets/img/tools/ampps.png",
     Elementor: "/assets/img/tools/elementor.png",
-    Gutenberg: "/assets/img/tools/Gutenberg.jpeg",
+    Gutenberg: "/assets/img/tools/Gutenberg.png",
     Spacer: "/assets/img/tools/ampps.png",
   },
 };
