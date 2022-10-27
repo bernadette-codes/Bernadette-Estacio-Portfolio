@@ -2,7 +2,7 @@ const tools = {
   CMS: {
     WordPress: "/assets/img/skills/wordpress.png",
     AEM: "/assets/img/tools/aem.png",
-    Sitecore: "/assets/img/tools/sitecore.jpg",
+    Sitecore: "/assets/img/tools/sitecore.png",
     Pagebuilder: "/assets/img/tools/pagebuilder.png",
     Spacer: "/assets/img/tools/ampps.png",
   },
@@ -17,7 +17,7 @@ const tools = {
     Git: "/assets/img/tools/git.png",
     Github: "/assets/img/tools/github.png",
     Gitlab: "/assets/img/tools/gitlab.png",
-    Bitbucket: "/assets/img/tools/bitbucket.jpg",
+    Bitbucket: "/assets/img/tools/bitbucket.png",
     SourceTree: "/assets/img/tools/sourcetree.png",
     npm: "/assets/img/tools/npm.png",
     Webpack: "/assets/img/tools/webpack.png",
@@ -31,7 +31,7 @@ const tools = {
   },
   "UX/UI Tools": {
     Figma: "/assets/img/tools/figma.png",
-    XD: "/assets/img/tools/xd.jpg",
+    XD: "/assets/img/tools/xd.png",
     Zeplin: "/assets/img/tools/zeplin.png",
     Photoshop: "/assets/img/tools/photoshop.png",
     Spacer: "/assets/img/tools/ampps.png",
@@ -58,8 +58,8 @@ const tools = {
     "CPT UI": "/assets/img/tools/cpt.png",
     "Local by Flywheel": "/assets/img/tools/local.png",
     Ampps: "/assets/img/tools/ampps.png",
-    Elementor: "/assets/img/skills/elementor.webp",
-    Gutenberg: "/assets/img/skills/Gutenberg.jpeg",
+    Elementor: "/assets/img/tools/elementor.png",
+    Gutenberg: "/assets/img/tools/Gutenberg.jpeg",
     Spacer: "/assets/img/tools/ampps.png",
   },
 };
