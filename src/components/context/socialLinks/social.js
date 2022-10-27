@@ -1,12 +1,12 @@
 const socials = [
   {
     title: "Linkedin",
-    link: "https://www.linkedin.com/in/bernadetteestacio/",
+    link: "https://www.linkedin.com/in/bernadetteengleman/",
     icon: "fa fa-linkedin-square",
   },
   {
     title: "Github",
-    link: "https://github.com/bernadette-estacio",
+    link: "https://github.com/bernadette-codes",
     icon: "fa fa-github",
   },
   {
