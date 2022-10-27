@@ -1,7 +1,7 @@
 const projects = [
   {
     name: "Portfolio Website",
-    link: "https://bernadettecodes.netlify.app/",
+    link: "https://bernadettecodes.vercel.app/",
     gitlink: "https://github.com/bernadette-codes/Bernadettecodes",
     photo:
       "https://raw.githubusercontent.com/bernadette-codes/Bernadettecodes/master/src/assets/img/portfolio/portfolio.png",
