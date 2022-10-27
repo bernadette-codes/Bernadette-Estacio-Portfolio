@@ -35,13 +35,13 @@ const projects = [
     photo: "/assets/img/portfolio/kill-fly-game.png",
     categories: "app react",
   },
-  {
-    name: "Cats & Dogs Game",
-    link: "projects/CatsnDogs-Game/CatsDogs",
-    gitlink: "https://github.com/bernadette-estacio/CatsnDogs-Game-App",
-    photo: "/assets/img/portfolio/cats-&-dogs.png",
-    categories: "app",
-  },
+  // {
+  //   name: "Cats & Dogs Game",
+  //   link: "projects/CatsnDogs-Game/CatsDogs",
+  //   gitlink: "https://github.com/bernadette-estacio/CatsnDogs-Game-App",
+  //   photo: "/assets/img/portfolio/cats-&-dogs.png",
+  //   categories: "app",
+  // },
   {
     name: "Fortune Cookie App",
     link: "projects/Fortune-Cookie",
