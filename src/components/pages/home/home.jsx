@@ -15,13 +15,10 @@ const Home = () => (
         </header>
 
         <div className="nameTitle">
-          <h2>
-            Bernadette <br />
-            Estacio
-          </h2>
+          <h2>Bernadette</h2>
 
           <h3>
-            Web <br />
+            Software <br />
             Developer
           </h3>
         </div>
