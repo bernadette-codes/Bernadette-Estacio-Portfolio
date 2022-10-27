@@ -23,17 +23,16 @@ const About = () => (
         <div className="row1">
           <div className="container">
             <div className="aboutContent">
-              <p>Hello, I am Bernadette! I'm a web developer.</p>
+              <p>Hello, I am Bernadette! I'm a software developer.</p>
 
               <p>
-                I learned how to make a basic website in High School and I
-                started website development in 2014.
+                I learned how to make a website in High School and I started
+                software development in 2014.
               </p>
 
               <p>
-                I taught myself OOP by coding games using JavaScript. My first
-                OOP language is JavaScript, and I learned to code in Java and
-                Python as well.
+                I taught myself OOP by coding games using JavaScript, and I
+                learned to code in Java and Python as well.
               </p>
             </div>
             <div className="gifImg">
@@ -47,13 +46,14 @@ const About = () => (
             <div className="aboutContent">
               <p>
                 In addition to coding, I enjoy working with CSS and Bootstrap to
-                build websites. Wordpress is my favorite CMS and I develop
-                websites using JS frameworks like jQuery, AngularJS & ReactJS.
+                build websites. I develop websites using JS frameworks like
+                jQuery, Angular & React and I have used WordPress and AEM for
+                CMS.
               </p>
 
               <p>
                 Aside from coding, I love to travel around the world and I've
-                been fortunate to visit 13 nations in the last 2 years.
+                been fortunate to visit 18 nations in the last 4 years.
               </p>
             </div>
             <div className="gifImg">
@@ -66,20 +66,13 @@ const About = () => (
           <div className="container">
             <div className="aboutContent">
               <div className="edu">
-                <h3>Education</h3>
+                <h3>
+                  <i className="fas fa-graduation-cap"> </i>Education
+                </h3>
                 <ul>
-                  <li>
-                    <i className="fas fa-running"></i>Master of Business
-                    Administration
-                  </li>
-                  <li>
-                    <i className="fas fa-graduation-cap"> </i>Bachelor of
-                    Business Management
-                  </li>
-                  <li>
-                    <i className="fas fa-graduation-cap"> </i>Bachelor of
-                    Science in Mathematics
-                  </li>
+                  <li>Master of Business Administration</li>
+                  <li>Bachelor of Business Management</li>
+                  <li>Bachelor of Science in Mathematics</li>
                 </ul>
               </div>
 
