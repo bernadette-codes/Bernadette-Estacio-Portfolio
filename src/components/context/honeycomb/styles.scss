@@ -105,12 +105,6 @@ ul.honeycomb {
         background-color: $hexagon-hover;
       }
     }
-
-    &:hover .title {
-      @media (min-width: 400px) {
-        color: $white;
-      }
-    }
   }
 
   li:last-of-type {
@@ -166,7 +160,7 @@ ul.honeycomb {
       display: flex;
       flex-direction: column;
       justify-content: center;
-      color: $lessBlack;
+      color: $white;
       font-size: 0.9375em;
       font-weight: 600;
       line-height: 1em;
