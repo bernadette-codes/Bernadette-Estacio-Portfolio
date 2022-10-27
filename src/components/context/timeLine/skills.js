@@ -11,11 +11,14 @@ const skillsList = {
   2015: {
     Sass: "/assets/img/skills/sass.png",
     ES6: "/assets/img/skills/es6.png",
+    Lodash: "/assets/img/skills/lodash.png",
+    "Rest API": "/assets/img/skills/rest-api.png",
   },
   2016: {
+    "WordPress CMS": "/assets/img/skills/wordpress.png",
+    Json: "/assets/img/skills/json.png",
     Angular: "/assets/img/skills/angularjs.png",
     React: "/assets/img/skills/react.ico",
-    Json: "/assets/img/skills/json.png",
   },
   2017: {
     XML: "/assets/img/skills/xml.png",
@@ -40,6 +43,13 @@ const skillsList = {
   2020: {
     Selenium: "/assets/img/skills/selenium.png",
     TestNG: "/assets/img/skills/testng.png",
+  },
+  2021: {
+    TypeScript: "/assets/img/skills/typescript.png",
+    Gatsby: "/assets/img/skills/gatsby.png",
+    Nextjs: "/assets/img/skills/nextjs.png",
+    GraphQL: "/assets/img/skills/graphql.png",
+    Codekit: "/assets/img/skills/codekit.png",
   },
 };
 
