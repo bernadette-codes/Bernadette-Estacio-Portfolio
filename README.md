@@ -1,4 +1,4 @@
-## [Portfolio website](https://bernadetteestacio.site/)
+## [Portfolio website](https://bernadettecodes.vercel.app/)
 
 ![Landing Page](https://raw.githubusercontent.com/bernadette-codes/Bernadettecodes/master/src/assets/img/portfolio/portfolio.png)
 
