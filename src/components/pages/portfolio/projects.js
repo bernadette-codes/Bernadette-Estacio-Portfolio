@@ -9,7 +9,7 @@ const projects = [
   },
   {
     name: "Guess the City Game",
-    link: "https://bernadettecodes.netlify.app/projects/guess-city-game/",
+    link: "https://guess-the-city-game-app.vercel.app/",
     gitlink: "https://github.com/bernadette-codes/Guess-The-City-Game-App",
     photo: "/assets/img/portfolio/guess-the-city.png",
     categories: "app react",
